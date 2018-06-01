@@ -15,7 +15,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 11400000}
-    name: Arm
+    name: ArmLogic
     startState: Start
     states:
     - name: Start
