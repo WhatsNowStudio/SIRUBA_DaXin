@@ -226,20 +226,8 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
-      - useVariable: 1
-        name: Float/Percentage
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
       intVariables: []
-      boolVariables:
-      - useVariable: 1
-        name: Bool/TriggerOnce
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
+      boolVariables: []
       stringVariables:
       - useVariable: 1
         name: String/ArmBehaviorFsm
@@ -254,17 +242,23 @@ MonoBehaviour:
         networkSync: 0
         value: ArmLogic
       vector2Variables: []
-      vector3Variables:
-      - useVariable: 1
-        name: V3/MoveDummy
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {x: 0, y: 0, z: 0}
+      vector3Variables: []
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
       gameObjectVariables:
+      - useVariable: 1
+        name: Obj/End
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Obj/End_Old
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       - useVariable: 1
         name: Obj/Model
         tooltip: 
@@ -284,7 +278,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 1
@@ -552,12 +546,6 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
-      - useVariable: 1
-        name: Float/Public
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
       intVariables: []
       boolVariables:
       - useVariable: 1
@@ -567,6 +555,12 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       stringVariables:
+      - useVariable: 1
+        name: String/ArmBehaviorFsm
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: ArmBehavior
       - useVariable: 1
         name: String/Json
         tooltip: 
@@ -769,7 +763,13 @@ MonoBehaviour:
     events: []
     globalTransitions: []
     variables:
-      floatVariables: []
+      floatVariables:
+      - useVariable: 1
+        name: Float/AniPercentage
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       intVariables: []
       boolVariables: []
       stringVariables:
@@ -779,20 +779,105 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: ArmLogic
+      - useVariable: 1
+        name: String/Order/First
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: String/Order/Now
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: String/Order/Second
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: String/Public
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: String/Traget
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
       vector2Variables: []
-      vector3Variables: []
+      vector3Variables:
+      - useVariable: 1
+        name: V3/Rotate/Now
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: V3/Rotate/To
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
-      gameObjectVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Obj/Arm/ModelAll
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 1214749741}
+      - useVariable: 1
+        name: Obj/Arm/RotateAxis
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 767575122}
+      - useVariable: 1
+        name: Obj/Clip/L
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 1926197265}
+      - useVariable: 1
+        name: Obj/Clip/R
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 971482436}
+      - useVariable: 1
+        name: Obj/Clip/Target
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
-      arrayVariables: []
+      arrayVariables:
+      - useVariable: 1
+        name: Array/Json
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 4
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 1
@@ -1094,12 +1179,6 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
-      - useVariable: 1
-        name: Float/Public
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
       intVariables: []
       boolVariables:
       - useVariable: 1
@@ -1109,6 +1188,12 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       stringVariables:
+      - useVariable: 1
+        name: String/ArmBehaviorFsm
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: ArmBehavior
       - useVariable: 1
         name: String/Json
         tooltip: 
@@ -1318,20 +1403,8 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
-      - useVariable: 1
-        name: Float/Percentage
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
       intVariables: []
-      boolVariables:
-      - useVariable: 1
-        name: Bool/TriggerOnce
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
+      boolVariables: []
       stringVariables:
       - useVariable: 1
         name: String/ArmBehaviorFsm
@@ -1346,17 +1419,23 @@ MonoBehaviour:
         networkSync: 0
         value: ArmLogic
       vector2Variables: []
-      vector3Variables:
-      - useVariable: 1
-        name: V3/MoveDummy
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {x: 0, y: 0, z: 0}
+      vector3Variables: []
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
       gameObjectVariables:
+      - useVariable: 1
+        name: Obj/End
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      - useVariable: 1
+        name: Obj/End_Old
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       - useVariable: 1
         name: Obj/Model
         tooltip: 
@@ -1376,7 +1455,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -1509,13 +1588,25 @@ MonoBehaviour:
         networkSync: 0
         value: ArmLogic
       - useVariable: 1
-        name: String/First
+        name: String/Order/First
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 
       - useVariable: 1
-        name: String/Second
+        name: String/Order/Now
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: String/Order/Second
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: String/Public
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1527,17 +1618,53 @@ MonoBehaviour:
         networkSync: 0
         value: 
       vector2Variables: []
-      vector3Variables: []
+      vector3Variables:
+      - useVariable: 1
+        name: V3/Rotate/Now
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
+      - useVariable: 1
+        name: V3/Rotate/To
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {x: 0, y: 0, z: 0}
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: Obj/Model
+        name: Obj/Arm/ModelAll
         tooltip: 
         showInInspector: 1
         networkSync: 0
         value: {fileID: 1607341437}
+      - useVariable: 1
+        name: Obj/Arm/RotateAxis
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 848336870}
+      - useVariable: 1
+        name: Obj/Clip/L
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 1957596929}
+      - useVariable: 1
+        name: Obj/Clip/R
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 1555750464}
+      - useVariable: 1
+        name: Obj/Clip/Target
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -1558,7 +1685,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -2314,6 +2441,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &767575122 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1330319191028642, guid: 2950f4cb666aeec45a3d80e750dfc33d,
+    type: 2}
+  m_PrefabInternal: {fileID: 774102376}
 --- !u!1001 &774102376
 Prefab:
   m_ObjectHideFlags: 0
@@ -2697,6 +2829,11 @@ MonoBehaviour:
     mask: {fileID: 0}
     opacity: 0
     rounded: 0
+--- !u!1 &848336870 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1330319191028642, guid: 2950f4cb666aeec45a3d80e750dfc33d,
+    type: 2}
+  m_PrefabInternal: {fileID: 359668308}
 --- !u!1 &875345820
 GameObject:
   m_ObjectHideFlags: 0
@@ -2787,6 +2924,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 875345820}
+--- !u!1 &971482436 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1052339841009896, guid: 2950f4cb666aeec45a3d80e750dfc33d,
+    type: 2}
+  m_PrefabInternal: {fileID: 774102376}
 --- !u!1 &993592229
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,6 +4666,11 @@ Transform:
   m_Father: {fileID: 1081684780}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1555750464 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1052339841009896, guid: 2950f4cb666aeec45a3d80e750dfc33d,
+    type: 2}
+  m_PrefabInternal: {fileID: 359668308}
 --- !u!1 &1607341437 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1958047674546014, guid: 2950f4cb666aeec45a3d80e750dfc33d,
@@ -8882,6 +9029,16 @@ Transform:
   m_PrefabParentObject: {fileID: 4067948967087716, guid: cb552e3092650264f871d7343e15b79e,
     type: 2}
   m_PrefabInternal: {fileID: 1915361373}
+--- !u!1 &1926197265 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1654072903444566, guid: 2950f4cb666aeec45a3d80e750dfc33d,
+    type: 2}
+  m_PrefabInternal: {fileID: 774102376}
+--- !u!1 &1957596929 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1654072903444566, guid: 2950f4cb666aeec45a3d80e750dfc33d,
+    type: 2}
+  m_PrefabInternal: {fileID: 359668308}
 --- !u!1001 &1983822495
 Prefab:
   m_ObjectHideFlags: 0
