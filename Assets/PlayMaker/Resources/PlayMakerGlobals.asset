@@ -52,3 +52,8 @@ MonoBehaviour:
   - UpData
   - ErrorReturn_OK
   - Click
+  - Off
+  - Language_Select
+  - Process_Done
+  - Process2
+  - Process2_Done
