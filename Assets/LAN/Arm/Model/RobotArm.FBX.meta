@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: bdbfa6887ed2647408b1eaff24329bf9
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arm01
+    100002: Arm02
+    100004: Arm03
+    100006: Arm04
+    100008: Arm04 1
+    100010: Arm05
+    100012: Arm_Switch
+    100014: Arm_Switch 1
+    100016: Arm_Switch 2
+    100018: ArmBase
+    100020: ArmJ
+    100022: JawBase_L
+    100024: "JawBase_L_\u51F8_L"
+    100026: "JawBase_L_\u51F8_R"
+    100028: JawBase_R
+    100030: "JawBase_R_\u51F8_L"
+    100032: "JawBase_R_\u51F8_R"
+    100034: JawLL
+    100036: JawLR
+    100038: JawRL
+    100040: JawRR
+    100042: Light
+    100044: Light 1
+    100046: LightBase
+    100048: LightBase 1
+    100050: Motor
+    100052: Motor 1
+    100054: Motor 2
+    100056: Motor 3
+    100058: Motor 4
+    100060: Motor 5
+    100062: Motor 6
+    100064: Motor 7
+    100066: Motor 8
+    100068: MotorSide
+    100070: MotorSide 1
+    100072: MotorSide 2
+    100074: //RootNode
+    100076: Screw
+    100078: Screw 1
+    100080: Screw 2
+    100082: Screw 3
+    100084: Screw 4
+    100086: Slider
+    100088: Slider 1
+    100090: Slider 2
+    100092: Slider 3
+    100094: Workpiece
+    100096: Workpiece 1
+    100098: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1"
+    100100: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1 1"
+    100102: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1 2"
+    100104: "\uD7BF___\uD7BE___1"
+    100106: "\uD7BF___\uD7BE___1 1"
+    100108: "\uD7BF___\uD7BE___1 2"
+    100110: "\uD7BF___\uD7BE___2"
+    100112: "\uD7BF___\uD7BE___2 1"
+    100114: "\uD7BF___\uD7BE___3"
+    100116: "\uD7BF___\uD7BE___3 1"
+    400000: Arm01
+    400002: Arm02
+    400004: Arm03
+    400006: Arm04
+    400008: Arm04 1
+    400010: Arm05
+    400012: Arm_Switch
+    400014: Arm_Switch 1
+    400016: Arm_Switch 2
+    400018: ArmBase
+    400020: ArmJ
+    400022: JawBase_L
+    400024: "JawBase_L_\u51F8_L"
+    400026: "JawBase_L_\u51F8_R"
+    400028: JawBase_R
+    400030: "JawBase_R_\u51F8_L"
+    400032: "JawBase_R_\u51F8_R"
+    400034: JawLL
+    400036: JawLR
+    400038: JawRL
+    400040: JawRR
+    400042: Light
+    400044: Light 1
+    400046: LightBase
+    400048: LightBase 1
+    400050: Motor
+    400052: Motor 1
+    400054: Motor 2
+    400056: Motor 3
+    400058: Motor 4
+    400060: Motor 5
+    400062: Motor 6
+    400064: Motor 7
+    400066: Motor 8
+    400068: MotorSide
+    400070: MotorSide 1
+    400072: MotorSide 2
+    400074: //RootNode
+    400076: Screw
+    400078: Screw 1
+    400080: Screw 2
+    400082: Screw 3
+    400084: Screw 4
+    400086: Slider
+    400088: Slider 1
+    400090: Slider 2
+    400092: Slider 3
+    400094: Workpiece
+    400096: Workpiece 1
+    400098: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1"
+    400100: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1 1"
+    400102: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1 2"
+    400104: "\uD7BF___\uD7BE___1"
+    400106: "\uD7BF___\uD7BE___1 1"
+    400108: "\uD7BF___\uD7BE___1 2"
+    400110: "\uD7BF___\uD7BE___2"
+    400112: "\uD7BF___\uD7BE___2 1"
+    400114: "\uD7BF___\uD7BE___3"
+    400116: "\uD7BF___\uD7BE___3 1"
+    2100000: No Name
+    2300000: Arm01
+    2300002: Arm02
+    2300004: Arm03
+    2300006: Arm04
+    2300008: Arm04 1
+    2300010: Arm05
+    2300012: Arm_Switch
+    2300014: Arm_Switch 1
+    2300016: Arm_Switch 2
+    2300018: ArmBase
+    2300020: ArmJ
+    2300022: JawBase_L
+    2300024: "JawBase_L_\u51F8_L"
+    2300026: "JawBase_L_\u51F8_R"
+    2300028: JawBase_R
+    2300030: "JawBase_R_\u51F8_L"
+    2300032: "JawBase_R_\u51F8_R"
+    2300034: JawLL
+    2300036: JawLR
+    2300038: JawRL
+    2300040: JawRR
+    2300042: Light
+    2300044: Light 1
+    2300046: LightBase
+    2300048: LightBase 1
+    2300050: Motor
+    2300052: Motor 1
+    2300054: Motor 2
+    2300056: Motor 3
+    2300058: Motor 4
+    2300060: Motor 5
+    2300062: Motor 6
+    2300064: Motor 7
+    2300066: Motor 8
+    2300068: MotorSide
+    2300070: MotorSide 1
+    2300072: MotorSide 2
+    2300074: //RootNode
+    2300076: Screw
+    2300078: Screw 1
+    2300080: Screw 2
+    2300082: Screw 3
+    2300084: Screw 4
+    2300086: Slider
+    2300088: Slider 1
+    2300090: Slider 2
+    2300092: Slider 3
+    2300094: Workpiece
+    2300096: Workpiece 1
+    2300098: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1"
+    2300100: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1 1"
+    2300102: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1 2"
+    2300104: "\uD7BF___\uD7BE___1"
+    2300106: "\uD7BF___\uD7BE___1 1"
+    2300108: "\uD7BF___\uD7BE___1 2"
+    2300110: "\uD7BF___\uD7BE___2"
+    2300112: "\uD7BF___\uD7BE___2 1"
+    2300114: "\uD7BF___\uD7BE___3"
+    2300116: "\uD7BF___\uD7BE___3 1"
+    3300000: Arm01
+    3300002: Arm02
+    3300004: Arm03
+    3300006: Arm04
+    3300008: Arm04 1
+    3300010: Arm05
+    3300012: Arm_Switch
+    3300014: Arm_Switch 1
+    3300016: Arm_Switch 2
+    3300018: ArmBase
+    3300020: ArmJ
+    3300022: JawBase_L
+    3300024: "JawBase_L_\u51F8_L"
+    3300026: "JawBase_L_\u51F8_R"
+    3300028: JawBase_R
+    3300030: "JawBase_R_\u51F8_L"
+    3300032: "JawBase_R_\u51F8_R"
+    3300034: JawLL
+    3300036: JawLR
+    3300038: JawRL
+    3300040: JawRR
+    3300042: Light
+    3300044: Light 1
+    3300046: LightBase
+    3300048: LightBase 1
+    3300050: Motor
+    3300052: Motor 1
+    3300054: Motor 2
+    3300056: Motor 3
+    3300058: Motor 4
+    3300060: Motor 5
+    3300062: Motor 6
+    3300064: Motor 7
+    3300066: Motor 8
+    3300068: MotorSide
+    3300070: MotorSide 1
+    3300072: MotorSide 2
+    3300074: //RootNode
+    3300076: Screw
+    3300078: Screw 1
+    3300080: Screw 2
+    3300082: Screw 3
+    3300084: Screw 4
+    3300086: Slider
+    3300088: Slider 1
+    3300090: Slider 2
+    3300092: Slider 3
+    3300094: Workpiece
+    3300096: Workpiece 1
+    3300098: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1"
+    3300100: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1 1"
+    3300102: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1 2"
+    3300104: "\uD7BF___\uD7BE___1"
+    3300106: "\uD7BF___\uD7BE___1 1"
+    3300108: "\uD7BF___\uD7BE___1 2"
+    3300110: "\uD7BF___\uD7BE___2"
+    3300112: "\uD7BF___\uD7BE___2 1"
+    3300114: "\uD7BF___\uD7BE___3"
+    3300116: "\uD7BF___\uD7BE___3 1"
+    4300000: plate
+    4300002: ArmBase
+    4300004: Arm01
+    4300006: Arm02
+    4300008: Arm03
+    4300010: Arm04
+    4300012: Arm05
+    4300014: Arm_Switch
+    4300016: JawBase_R
+    4300018: JawRL
+    4300020: Screw
+    4300022: JawRR
+    4300024: Workpiece
+    4300026: Screw
+    4300028: "JawBase_R_\u51F8_L"
+    4300030: "JawBase_R_\u51F8_R"
+    4300032: JawBase_L
+    4300034: JawLR
+    4300036: Workpiece
+    4300038: Screw
+    4300040: JawLL
+    4300042: Screw
+    4300044: "JawBase_L_\u51F8_R"
+    4300046: "JawBase_L_\u51F8_L"
+    4300048: Arm_Switch
+    4300050: "\uD7BF___\uD7BE___2"
+    4300052: "\uD7BF___\uD7BE___3"
+    4300054: "\uD7BF___\uD7BE___1"
+    4300056: Arm_Switch
+    4300058: "\uD7BF___\uD7BE___3"
+    4300060: "\uD7BF___\uD7BE___2"
+    4300062: Arm04
+    4300064: ArmJ
+    4300066: Motor
+    4300068: Motor
+    4300070: Motor
+    4300072: Motor
+    4300074: Slider
+    4300076: Slider
+    4300078: Motor
+    4300080: LightBase
+    4300082: LightBase
+    4300084: Light
+    4300086: Light
+    4300088: Slider
+    4300090: Slider
+    4300092: "\uD7BF___\uD7BE___1"
+    4300094: MotorSide
+    4300096: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1"
+    4300098: MotorSide
+    4300100: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1"
+    4300102: "\uD7BF___\uD7BE___-\uD7BE___\uD7BE___1"
+    4300104: MotorSide
+    4300106: Motor
+    4300108: Motor
+    4300110: Motor
+    4300112: Motor
+    4300114: Screw
+    4300116: "\uD7BF___\uD7BE___1"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
