@@ -4,7 +4,13 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Foot
+    100004: "\u8ECC\u9053"
+    100006: CCD001
     400000: //RootNode
+    400002: Foot
+    400004: "\u8ECC\u9053"
+    400006: CCD001
     2100000: 0
     2100002: 4
     2100004: 3
@@ -12,8 +18,16 @@ ModelImporter:
     2100008: 2
     2100010: 1
     2300000: //RootNode
+    2300002: Foot
+    2300004: "\u8ECC\u9053"
+    2300006: CCD001
     3300000: //RootNode
+    3300002: Foot
+    3300004: "\u8ECC\u9053"
+    3300006: CCD001
     4300000: "\u8ECC\u9053"
+    4300002: Foot
+    4300004: CCD001
   externalObjects: {}
   materials:
     importMaterials: 1
