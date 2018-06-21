@@ -248,9 +248,24 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4318248357673376}
-  - component: {fileID: 65756857169537868}
   m_Layer: 0
   m_Name: Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1585431266652918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4046480771847032}
+  - component: {fileID: 65228264178044912}
+  m_Layer: 0
+  m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -415,6 +430,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4863893801480314}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4046480771847032
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1585431266652918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.678, z: 0.957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4784087294338678}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4205395751369258
 Transform:
@@ -626,6 +654,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4318248357673376}
+  - {fileID: 4046480771847032}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1341,18 +1370,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1361063776306006}
   m_Mesh: {fileID: 4300000, guid: 85b7c626db858c043b6013c8c09f077f, type: 3}
---- !u!65 &65756857169537868
+--- !u!65 &65228264178044912
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1578858718420468}
+  m_GameObject: {fileID: 1585431266652918}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.41, z: 0.79}
-  m_Center: {x: 0, y: 0, z: 0.29}
+  m_Size: {x: 0.42, y: 0.49, z: 1.13}
+  m_Center: {x: 0, y: 0.33, z: -0.46}
 --- !u!95 &95415071677171504
 Animator:
   serializedVersion: 3
