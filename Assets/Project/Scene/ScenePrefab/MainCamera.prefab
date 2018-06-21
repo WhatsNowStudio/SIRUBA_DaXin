@@ -2288,7 +2288,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 78.94531
+        x: 62.945312
         y: 103.765625
         width: 100
         height: 16
@@ -2340,7 +2340,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 253.19531
+        x: 237.19531
         y: 125.83594
         width: 127.5
         height: 48
@@ -2460,7 +2460,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 252.82031
+        x: 236.82031
         y: 395.28906
         width: 167
         height: 48
@@ -2472,7 +2472,7 @@ MonoBehaviour:
           name: N
           isSystemEvent: 0
           isGlobal: 0
-        toState: Non
+        toState: "\u64AD\u653E\u97F3\u6548_\u53D6\u6D88"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2480,7 +2480,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u7D66\u7279\u6548"
+        toState: "\u64AD\u653E\u97F3\u6548"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2640,7 +2640,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 251.9375
+        x: 235.9375
         y: 223.71875
         width: 109
         height: 32
@@ -2780,8 +2780,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 262.64062
-        y: 544.2031
+        x: 251.64062
+        y: 616.2031
         width: 100
         height: 48
       isBreakpoint: 0
@@ -2914,8 +2914,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 91.484375
-        y: 533.6094
+        x: 80.484375
+        y: 605.6094
         width: 100
         height: 48
       isBreakpoint: 0
@@ -3019,8 +3019,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 79.8125
-        y: 614.8125
+        x: 68.8125
+        y: 686.8125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -3112,7 +3112,7 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 259.40625
+        x: 243.40625
         y: 325.33594
         width: 100
         height: 48
@@ -3246,7 +3246,7 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 70.859375
+        x: 54.859375
         y: 335.5
         width: 100
         height: 32
@@ -3343,8 +3343,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 538.2578
-        y: 417.47656
+        x: 646.2656
+        y: 431.47656
         width: 100
         height: 16
       isBreakpoint: 0
@@ -3390,6 +3390,192 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
+    - name: "\u64AD\u653E\u97F3\u6548"
+      description: 
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 254
+        y: 546
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u7D66\u7279\u6548"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.PlaySound
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 9cdc3905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1658603858717618}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: 18b19b1c2ec74f64d9b1952f7d05d34d, type: 3}
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001c000000180000000f000000
+        paramName:
+        - gameObject
+        - position
+        - clip
+        - volume
+        paramDataPos: 00000000000000000000000000000000
+        paramByteDataSize: 00000000000000000000000000000000
+    - name: "\u64AD\u653E\u97F3\u6548_\u53D6\u6D88"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 458
+        y: 405
+        width: 111
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Non
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.PlaySound
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 9cdc3905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1658603858717618}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: 59c7bbefd3349f94eb0f34445fcd3d07, type: 3}
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.6041667
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001c000000180000000f000000
+        paramName:
+        - gameObject
+        - position
+        - clip
+        - volume
+        paramDataPos: 00000000000000000000000000000000
+        paramByteDataSize: 00000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
