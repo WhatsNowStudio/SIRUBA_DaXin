@@ -24,7 +24,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 51
-        y: 143
+        y: 111
         width: 100
         height: 16
       isBreakpoint: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 237
-        y: 146
+        y: 114
         width: 110.5
         height: 32
       isBreakpoint: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 235
-        y: 220
+        y: 188
         width: 125
         height: 48
       isBreakpoint: 0
@@ -619,7 +619,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1151.0156
-        y: 396.04688
+        y: 364.04688
         width: 102
         height: 16
       isBreakpoint: 0
@@ -713,7 +713,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 665
-        y: 339
+        y: 307
         width: 124
         height: 48
       isBreakpoint: 0
@@ -925,7 +925,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 1009
-        y: 378
+        y: 346
         width: 108
         height: 32
       isBreakpoint: 0
@@ -1073,7 +1073,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 413
-        y: 236
+        y: 204
         width: 155.5
         height: 32
       isBreakpoint: 0
@@ -1150,7 +1150,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 413
-        y: 322
+        y: 290
         width: 158
         height: 32
       isBreakpoint: 0
@@ -1226,33 +1226,23 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 668.8906
-        y: 108.890625
+        x: 660.8906
+        y: 151.89062
         width: 132
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Go
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: "\u518D\u7D66\u4E00\u500B"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 5e69bb0488611604
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5e69bb04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1315,92 +1305,26 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Set
-        - Go
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f0000000100000017000000
+        paramDataType: 1f000000170000000f00000001000000
         paramName:
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        - sendEvent
-        paramDataPos: 0000000000000000000000000000000001000000
-        paramByteDataSize: 0000000000000000000000000100000000000000
-    - name: "\u518D\u7D66\u4E00\u500B"
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 663.71875
-        y: 202.21875
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Go
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: "\u518D\u7D66\u4E00\u500B 2"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 88611604
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Go
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 17000000
-        paramName:
-        - sendEvent
-        paramDataPos: 00000000
-        paramByteDataSize: 00000000
+        paramDataPos: 00000000000000000000000000000000
+        paramByteDataSize: 00000000000000000000000001000000
     - name: "\u8A08\u7B97\u79FB\u52D5\u8DDD\u96E2-"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 849
-        y: 394
+        y: 362
         width: 108
         height: 32
       isBreakpoint: 0
@@ -1481,7 +1405,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 843.5
-        y: 321.5
+        y: 289.5
         width: 119
         height: 32
       isBreakpoint: 0
@@ -1556,70 +1480,6 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 00000000000000000000000000000000
         paramByteDataSize: 00000000000000000100000000000000
-    - name: "\u518D\u7D66\u4E00\u500B 2"
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 662.5
-        y: 257
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Go
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: "\u8A08\u7B97\u79FB\u52D5\u8DDD\u96E2"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 88611604
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams:
-        - Go
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 17000000
-        paramName:
-        - sendEvent
-        paramDataPos: 00000000
-        paramByteDataSize: 00000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -1642,6 +1502,9 @@ MonoBehaviour:
     - name: Set
       isSystemEvent: 0
       isGlobal: 1
+    - name: SetDone
+      isSystemEvent: 0
+      isGlobal: 1
     - name: UpData
       isSystemEvent: 0
       isGlobal: 1
@@ -1654,6 +1517,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u63A5\u6536\u8CC7\u8A0A"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: SetDone
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u8A08\u7B97\u79FB\u52D5\u8DDD\u96E2"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0

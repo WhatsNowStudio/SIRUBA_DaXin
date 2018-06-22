@@ -64,3 +64,9 @@ MonoBehaviour:
   - Process2
   - Process2_Done
   - DClick
+  - SetDone
+  - Close
+  - FirstOpen
+  - Open
+  - TurnOff
+  - TurnOn
