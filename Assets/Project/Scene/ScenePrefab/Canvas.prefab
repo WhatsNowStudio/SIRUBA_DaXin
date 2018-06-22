@@ -7972,10 +7972,10 @@ MonoBehaviour:
       - useVariable: 1
         name: String/Json
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
         networkSync: 0
-        value: "{   \"Arm1\": {     \"Name\": \"\u6A5F\u68B0\u624B\u81C2\",     \"Content\":
-          \"\"   },   \"Arm2\": {     \"Name\": \"\u6A5F\u68B0\u624B\u81C2\",     \"Content\":
+        value: "{   \"Arm1\": {     \"Name\": \"\u6A5F\u68B0\u624B\u81C21\",     \"Content\":
+          \"\"   },   \"Arm2\": {     \"Name\": \"\u6A5F\u68B0\u624B\u81C22\",     \"Content\":
           \"\"   },   \"G1\": {     \"Name\": \"\u7121\u5FC3\u7814\u78E8\u6A5F\",
           \    \"Content\": \"\"   },   \"G2\": {     \"Name\": \"\u5916\u7DE3\u7814\u78E8\u6A5F\",
           \    \"Content\": \"\"   },   \"G3\": {     \"Name\": \"\u5916\u7DE3\u7814\u78E8\u6A5F\",
@@ -7984,9 +7984,11 @@ MonoBehaviour:
           \    \"Content\": \"\"   },   \"G6\": {     \"Name\": \"\u5916\u7DE3\u7814\u78E8\u6A5F\",
           \    \"Content\": \"\"   },   \"G7\": {     \"Name\": \"\u5916\u7DE3\u7814\u78E8\u6A5F\",
           \    \"Content\": \"\"   },   \"G8\": {     \"Name\": \"\u6E05\u6D17\u6A5F\",
-          \    \"Content\": \"\"   },   \"S\": {     \"Name\": \"\u6599\u5009\",     \"Content\":
-          \"\"   },   \"L\": {     \"Name\": \"\u96F7\u5C04\u6AA2\u6E2C\u5100\",     \"Content\":
-          \"\"   } }"
+          \    \"Content\": \"\"   },   \"S\": {     \"Name\": \"\u7C97\u4EF6\u6599\u5009\",
+          \    \"Content\": \"\"   },   \"S2\": {     \"Name\": \"\u6210\u54C1\u6599\u5009\",
+          \    \"Content\": \"\"   },   \"L\": {     \"Name\": \"\u96F7\u5C04\u6AA2\u6E2C\u5100\",
+          \    \"Content\": \"\"   },   \"C\": {     \"Name\": \"CCD\u6821\u6B63\",
+          \    \"Content\": \"\"   } }"
       - useVariable: 1
         name: String/JsonGet
         tooltip: 
@@ -8052,7 +8054,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
