@@ -1084,7 +1084,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u593E\u722A\u91CD\u6574\u72C0\u614B"
+        toState: "\u593E\u722A\u91CD\u6574\u72C0\u614B---------"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1221,14 +1221,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000
         paramByteDataSize: 000000000000000001000000
-    - name: "\u593E\u722A\u91CD\u6574\u72C0\u614B"
-      description: "#\u7D66\u4E00\u500BFrame\n#\u8B93ArmBehavior\u8655\u7406"
+    - name: "\u593E\u722A\u91CD\u6574\u72C0\u614B---------"
+      description: "#\u547C\u53EBMove Reset\n#\u6015ArmBehavior\u88E1\u9762\u6253\u67B6\n#\u8B93ArmBehavior\u8655\u7406"
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 660.8906
         y: 151.89062
-        width: 132
+        width: 171
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -1237,12 +1237,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.SendEvent
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5e69bb04
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: 5e69bb045e69bb04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1282,6 +1284,38 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           fsmComponent: {fileID: 0}
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 0
+            gameObject:
+              useVariable: 0
+              name: 
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 1
+            name: String/ArmMoveFsm
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: ArmMove
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams: []
@@ -1290,6 +1324,12 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -1305,19 +1345,24 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Set
-        byteData: 00
+        - Reset
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f00000001000000
+        paramDataType: 1f000000170000000f000000010000001f000000170000000f00000001000000
         paramName:
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000
-        paramByteDataSize: 00000000000000000000000001000000
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 0000000000000000000000000000000001000000010000000100000001000000
+        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000001000000
     - name: "\u8A08\u7B97\u79FB\u52D5\u8DDD\u96E2-"
       description: 
       colorIndex: 0
@@ -1499,6 +1544,9 @@ MonoBehaviour:
     - name: NewData
       isSystemEvent: 0
       isGlobal: 1
+    - name: Reset
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Set
       isSystemEvent: 0
       isGlobal: 1
@@ -1551,6 +1599,12 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: 
+      - useVariable: 1
+        name: String/ArmMoveFsm
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: ArmMove
       - useVariable: 1
         name: String/Json
         tooltip: 
@@ -1637,7 +1691,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

@@ -765,6 +765,9 @@ MonoBehaviour:
     - name: Process
       isSystemEvent: 0
       isGlobal: 1
+    - name: Reset
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Rest
       isSystemEvent: 0
       isGlobal: 1
@@ -773,10 +776,18 @@ MonoBehaviour:
       isGlobal: 0
     globalTransitions:
     - fsmEvent:
+        name: Reset
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: Start
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
         name: Inside_0
         isSystemEvent: 0
         isGlobal: 0
-      toState: State 1
+      toState: Start
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
