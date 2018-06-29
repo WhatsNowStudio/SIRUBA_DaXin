@@ -1188,7 +1188,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0001
+        actionIsOpen: 0101
         actionStartIndex: 000000000d000000
         actionHashCodes: 27ffbc035e69bb04
         unityObjectParams: []
@@ -1204,7 +1204,7 @@ MonoBehaviour:
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams:
-        - target: 1
+        - target: 2
           excludeSelf:
             useVariable: 0
             name: 
@@ -1216,7 +1216,7 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: GObj/UI/Window
+              name: GObj/Canvas
               tooltip: 
               showInInspector: 0
               networkSync: 0
@@ -1227,7 +1227,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: 
+            value: Window
           sendToChildren:
             useVariable: 0
             name: 
