@@ -4440,7 +4440,7 @@ MonoBehaviour:
       sharpen: 0
       stationaryBlending: 0
       motionBlending: 0
-  controlAmbientOcclusion: 0
+  controlAmbientOcclusion: 1
   enableAmbientOcclusion: 0
   ambientOcclusion:
     intensity: 0
@@ -4450,7 +4450,7 @@ MonoBehaviour:
     forceForwardCompatibility: 0
     ambientOnly: 0
     highPrecision: 0
-  controlScreenSpaceReflection: 0
+  controlScreenSpaceReflection: 1
   enableScreenSpaceReflection: 0
   screenSpaceReflection:
     reflection:
@@ -4477,7 +4477,7 @@ MonoBehaviour:
     focalLength: 0
     useCameraFov: 0
     kernelSize: 0
-  controlMotionBlur: 0
+  controlMotionBlur: 1
   enableMotionBlur: 0
   motionBlur:
     shutterAngle: 0
@@ -4497,7 +4497,7 @@ MonoBehaviour:
     speedDown: 0
     logMin: 0
     logMax: 0
-  controlBloom: 0
+  controlBloom: 1
   enableBloom: 0
   bloom:
     bloom:
@@ -5939,7 +5939,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000000000
+        actionIsOpen: 0000010000
         actionStartIndex: 0000000007000000090000000c00000010000000
         actionHashCodes: 5552ad0544e7c204906cbb033fb24c0341159400
         unityObjectParams: []
