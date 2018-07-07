@@ -6994,8 +6994,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114022899953922948}
   m_HandleRect: {fileID: 224272475949555554}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7397,7 +7397,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 224346025958213850}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9416,7 +9416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: http://ec2-18-188-240-18.us-east-2.compute.amazonaws.com/SirubaAPI/api/GetData/CurrentData
+  m_Text: http://112.15.157.35:999/SirubaAPI/api/GetData/CurrentData
 --- !u!114 &114666528221996236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9908,7 +9908,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: http://ec2-18-188-240-18.us-east-2.compute.amazonaws.com/SirubaAPI/api/GetData/CurrentData
+    - m_Text: http://112.15.157.35:999/SirubaAPI/api/GetData/CurrentData
       m_Image: {fileID: 0}
     - m_Text: http://api.jsoneditoronline.org/v1/docs/bd71a6f8f57f487f85644a22530ac073/data
       m_Image: {fileID: 0}
@@ -17142,7 +17142,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 66.49351, y: 0}
+  m_AnchoredPosition: {x: 64.21122, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224272475949555554
@@ -17479,7 +17479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 66.49351, y: 0}
+  m_AnchoredPosition: {x: 64.21122, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224336943951396238
@@ -18108,7 +18108,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00008580135}
+  m_AnchoredPosition: {x: 0, y: 0.000012255688}
   m_SizeDelta: {x: 0.000061035156, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224539423822623834
@@ -18621,9 +18621,9 @@ RectTransform:
   m_Father: {fileID: 224667164416366592}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 752.381, y: -608}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224726214546311458
@@ -18736,7 +18736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000009147722, y: 0.000060236554}
+  m_AnchoredPosition: {x: -0.000009147722, y: 0.000048821963}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224754733509780348
@@ -18984,9 +18984,9 @@ RectTransform:
   m_Father: {fileID: 224667164416366592}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 752.381, y: -728}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224864428309797570
