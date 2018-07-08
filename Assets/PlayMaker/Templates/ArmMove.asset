@@ -141,12 +141,12 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: GFloat/ArmMoveSpeed
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 10
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 

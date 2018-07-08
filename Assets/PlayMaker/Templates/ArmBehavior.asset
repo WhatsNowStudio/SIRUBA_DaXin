@@ -540,7 +540,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000001
+        actionIsOpen: 010001
         actionStartIndex: 000000000a0000000f000000
         actionHashCodes: bd9b4401c34b4105fa0e5402
         unityObjectParams: []
@@ -633,7 +633,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 2
         - useVariable: 0
           name: 
           tooltip: 
@@ -953,7 +953,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.5
+          value: 0.3
         - useVariable: 1
           name: 
           tooltip: 
@@ -1019,11 +1019,11 @@ MonoBehaviour:
         paramByteDataSize: 000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000001000000
     - name: "\u6709\u4E0B\u4E00\u6B65?"
       description: 
-      colorIndex: 4
+      colorIndex: 3
       position:
         serializedVersion: 2
-        x: 714.3203
-        y: 923.4922
+        x: 549.3203
+        y: 914.4922
         width: 134
         height: 48
       isBreakpoint: 0
@@ -1115,11 +1115,11 @@ MonoBehaviour:
         paramByteDataSize: 000000000000000000000000000000000000000001000000
     - name: "\u56DE\u5230\u9810\u8A2D\u52D5\u4F5C"
       description: 
-      colorIndex: 4
+      colorIndex: 3
       position:
         serializedVersion: 2
-        x: 898.3203
-        y: 983.5078
+        x: 733.3203
+        y: 974.5078
         width: 102
         height: 16
       isBreakpoint: 0
@@ -1352,11 +1352,11 @@ MonoBehaviour:
         paramByteDataSize: 00000000000000000000000001000000
     - name: "\u7D00\u9304\u5DF2\u57F7\u884C"
       description: "#\u8A2D\u5B9A\u57F7\u884C\u9806\u5E8F\n#\u7B2C\u4E8C\u6B65\u5BEB\u70BA\u7A7A\u503C\n#Inside_0"
-      colorIndex: 4
+      colorIndex: 3
       position:
         serializedVersion: 2
-        x: 896.3203
-        y: 903.4922
+        x: 734.3203
+        y: 877.4922
         width: 107
         height: 16
       isBreakpoint: 0
@@ -2576,14 +2576,22 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 527
-        y: 745
+        x: 547
+        y: 738
         width: 125
-        height: 16
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: Done
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u9700\u8981\u8A2D\u5099\u653E\u958B?"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.AnimatorPlay
@@ -2686,7 +2694,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Inside_2
+        - Done
         byteData: 011500000000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -2713,11 +2721,11 @@ MonoBehaviour:
         paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000000000000000000000000000004000000000000000000000001000000
     - name: "\u9700\u8981\u8A2D\u5099\u653E\u958B?"
       description: 
-      colorIndex: 4
+      colorIndex: 3
       position:
         serializedVersion: 2
-        x: 717.10156
-        y: 809.21094
+        x: 380.10156
+        y: 816.21094
         width: 109
         height: 48
       isBreakpoint: 0
@@ -2812,8 +2820,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 538.10156
-        y: 647.21094
+        x: 554.10156
+        y: 646.21094
         width: 102
         height: 16
       isBreakpoint: 0
@@ -2906,11 +2914,11 @@ MonoBehaviour:
         paramByteDataSize: 00000000000000000000000001000000
     - name: "\u547C\u53EB\u8A2D\u5099\u653E\u958B"
       description: 
-      colorIndex: 4
+      colorIndex: 3
       position:
         serializedVersion: 2
-        x: 900.10156
-        y: 824.21094
+        x: 556.10156
+        y: 832.21094
         width: 102
         height: 16
       isBreakpoint: 0
@@ -3321,7 +3329,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000001
+        actionIsOpen: 010001
         actionStartIndex: 000000000a0000000f000000
         actionHashCodes: bd9b4401c34b4105fa0e5402
         unityObjectParams: []
@@ -3414,7 +3422,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 2
         - useVariable: 0
           name: 
           tooltip: 
@@ -3676,14 +3684,6 @@ MonoBehaviour:
       linkConstraint: 0
       colorIndex: 0
     - fsmEvent:
-        name: Inside_2
-        isSystemEvent: 0
-        isGlobal: 0
-      toState: "\u9700\u8981\u8A2D\u5099\u653E\u958B?"
-      linkStyle: 0
-      linkConstraint: 0
-      colorIndex: 0
-    - fsmEvent:
         name: Process_Done
         isSystemEvent: 0
         isGlobal: 1
@@ -3862,7 +3862,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
