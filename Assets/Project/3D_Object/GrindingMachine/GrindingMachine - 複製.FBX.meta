@@ -1,45 +1,31 @@
 fileFormatVersion: 2
-guid: 44fc1661ec7349f4fbc84be5033b592c
+guid: 63f6cbc1d37a1a849b7d2c3eee3f555a
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Aaa
-    100002: Body
-    100004: //RootNode
-    100006: "\u4E3B\u8EF8"
-    100008: "\u6C99\u8F2AB"
-    100010: "\u7802\u8F2AA"
-    400000: Aaa
-    400002: Body
-    400004: //RootNode
-    400006: "\u4E3B\u8EF8"
-    400008: "\u6C99\u8F2AB"
-    400010: "\u7802\u8F2AA"
+    100000: Body
+    100002: //RootNode
+    100004: "\u4E3B\u8EF8"
+    100006: "\u6C99\u8F2AB"
+    100008: "\u7802\u8F2AA"
+    400000: Body
+    400002: //RootNode
+    400004: "\u4E3B\u8EF8"
+    400006: "\u6C99\u8F2AB"
+    400008: "\u7802\u8F2AA"
     2100000: 01 - Default
-    2100002: No Name
-    2100004: Gray
-    2100006: Metal
-    2100008: White
-    2100010: Orange
-    2100012: Silver
-    2100014: PlasticBlack
-    2100016: PlasticBlackSoft
-    2100018: MetalGray
-    2300000: Aaa
-    2300002: Body
-    2300004: "\u4E3B\u8EF8"
-    2300006: "\u6C99\u8F2AB"
-    2300008: "\u7802\u8F2AA"
-    3300000: Aaa
-    3300002: Body
-    3300004: "\u4E3B\u8EF8"
-    3300006: "\u6C99\u8F2AB"
-    3300008: "\u7802\u8F2AA"
+    2300000: Body
+    2300002: "\u4E3B\u8EF8"
+    2300004: "\u6C99\u8F2AB"
+    2300006: "\u7802\u8F2AA"
+    3300000: Body
+    3300002: "\u4E3B\u8EF8"
+    3300004: "\u6C99\u8F2AB"
+    3300006: "\u7802\u8F2AA"
     4300000: Body
     4300002: "\u4E3B\u8EF8"
-    4300004: Aaa
-    4300006: "\u6C99\u8F2AB"
-    4300008: "\u7802\u8F2AA"
+    4300004: "\u6C99\u8F2AB"
+    4300006: "\u7802\u8F2AA"
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -92,8 +78,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 25
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
