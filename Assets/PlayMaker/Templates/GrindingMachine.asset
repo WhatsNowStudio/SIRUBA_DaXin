@@ -224,7 +224,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000001
+        actionIsOpen: 00010101
         actionStartIndex: 000000000f0000001400000019000000
         actionHashCodes: d9ade603b2cf1000c34b4105bd9b4401
         unityObjectParams: []
@@ -327,10 +327,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/AnimationPercentage/Catch
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0.5
         - useVariable: 1
@@ -482,13 +482,13 @@ MonoBehaviour:
         paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000000000001000000020000000000000001000000010000000200000001000000010000000200000002000000030000000400000005000000060000000700000003000000030000000000000007000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000004000000000000000000000001000000
     - name: "\u52A0\u5DE5\u52D5\u756B"
-      description: "#\u5DE5\u4EF6\u5B58\u5728"
+      description: "#\u5DE5\u4EF6\u5B58\u5728\n#\u76EE\u524D\u72C0\u614B\u5148\u904B\u884C\u636F\u4E00\u6B21\u52A0\u5DE5"
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 441
         y: 108
-        width: 100
+        width: 131
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -564,10 +564,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/AnimationPercentage/Process_To
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 1
@@ -661,8 +661,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 441
-        y: 162
+        x: 440
+        y: 206
         width: 100
         height: 32
       isBreakpoint: 0
@@ -723,16 +723,16 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/AnimationPercentage/Process_From
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0.5
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/AnimationPercentage/Process_To
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 1
         - useVariable: 1
@@ -809,8 +809,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 406
-        y: 260
+        x: 407
+        y: 274
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1449,10 +1449,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/AnimationPercentage/Release
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0
         - useVariable: 1
@@ -1713,8 +1713,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 70
-        y: 460
+        x: 60
+        y: 461
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1872,6 +1872,36 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
+      - useVariable: 1
+        name: Float/AnimationPercentage/Catch
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0.5
+      - useVariable: 1
+        name: Float/AnimationPercentage/Process_From
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0.5
+      - useVariable: 1
+        name: Float/AnimationPercentage/Process_To
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 1
+      - useVariable: 1
+        name: Float/AnimationPercentage/Release
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Float/AnimationPercentage/Stop
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
       intVariables: []
       boolVariables: []
       stringVariables:
@@ -1918,7 +1948,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

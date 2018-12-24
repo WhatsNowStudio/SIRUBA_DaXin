@@ -35,7 +35,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: Frame1
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -554,7 +554,7 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000010000000000000000000000010000000100000000000000010000000000000001000000
         paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: State 1
+    - name: Frame1
       description: 
       colorIndex: 0
       position:
@@ -571,7 +571,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 2
+        toState: Frame2
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -618,7 +618,7 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 00000000
         paramByteDataSize: 00000000
-    - name: State 2
+    - name: Frame2
       description: 
       colorIndex: 0
       position:
@@ -635,7 +635,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 3
+        toState: Frame3
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -682,7 +682,7 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 00000000
         paramByteDataSize: 00000000
-    - name: State 3
+    - name: Frame3
       description: 
       colorIndex: 0
       position:
