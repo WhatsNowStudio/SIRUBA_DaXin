@@ -224,7 +224,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00010101
+        actionIsOpen: 00000101
         actionStartIndex: 000000000f0000001400000019000000
         actionHashCodes: d9ade603b2cf1000c34b4105bd9b4401
         unityObjectParams: []
@@ -321,8 +321,8 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 1
-          name: Float/AnimationPercentage
+        - useVariable: 0
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -339,10 +339,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/Time/Catch
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0.3
         - useVariable: 1
@@ -558,8 +558,8 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 1
-          name: Float/AnimationPercentage
+        - useVariable: 0
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -879,22 +879,22 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/AnimationPercentage/Stop
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
-          value: 0.5
+          value: 0
         - useVariable: 1
           name: Float/AnimationPercentage
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/Time/Stop
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0.3
         - useVariable: 1
@@ -1046,10 +1046,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/AnimationPercentage/Stop
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0
         - useVariable: 1
@@ -1058,10 +1058,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/Time/Stop
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0.3
         - useVariable: 1
@@ -1461,10 +1461,10 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: Float/Time/Release
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0.3
         - useVariable: 1
@@ -1902,6 +1902,24 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: 0
+      - useVariable: 1
+        name: Float/Time/Catch
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0.3
+      - useVariable: 1
+        name: Float/Time/Release
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0.3
+      - useVariable: 1
+        name: Float/Time/Stop
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0.3
       intVariables: []
       boolVariables: []
       stringVariables:
@@ -1948,7 +1966,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

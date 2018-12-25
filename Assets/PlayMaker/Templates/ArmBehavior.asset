@@ -24,7 +24,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 201
-        y: 408
+        y: 232
         width: 100
         height: 16
       isBreakpoint: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 401.2578
-        y: 428.23438
+        y: 252.23438
         width: 174
         height: 48
       isBreakpoint: 0
@@ -514,8 +514,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 955.28125
-        y: 493.23438
+        x: 1034.2891
+        y: 519.5
         width: 100
         height: 32
       isBreakpoint: 0
@@ -710,8 +710,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 956.28125
-        y: 631.2344
+        x: 1035.2891
+        y: 657.5
         width: 100
         height: 32
       isBreakpoint: 0
@@ -722,7 +722,7 @@ MonoBehaviour:
           name: Done
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u63D2\u5165"
+        toState: "\u6B63\u57F7\u884C\u7B2C\u4E8C\u52D5\u4F5C?"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -874,8 +874,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 957.28125
-        y: 705.2344
+        x: 1031.2891
+        y: 874.5
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1023,7 +1023,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 549.3203
-        y: 1058.4922
+        y: 882.4922
         width: 134
         height: 48
       isBreakpoint: 0
@@ -1114,13 +1114,13 @@ MonoBehaviour:
         paramDataPos: 000000000100000000000000010000000000000000000000
         paramByteDataSize: 000000000000000000000000000000000000000001000000
     - name: "\u56DE\u5230\u9810\u8A2D\u52D5\u4F5C"
-      description: 
+      description: "#\u5BEB\u5165\u6C92\u6709\u4E0B\u4E00\u6B65"
       colorIndex: 3
       position:
         serializedVersion: 2
         x: 733.3203
-        y: 1118.5078
-        width: 102
+        y: 942.5078
+        width: 113
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -1128,15 +1128,17 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
         - HutongGames.PlayMaker.Actions.EaseFloat
         - HutongGames.PlayMaker.Actions.AnimatorPlay
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 000000000a000000
-        actionHashCodes: bd9b4401c34b4105
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000030000000d000000
+        actionHashCodes: 27fbe103bd9b4401c34b4105
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1216,6 +1218,18 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         fsmBoolParams:
+        - useVariable: 1
+          name: Bool/SecondAnimation?
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -1229,13 +1243,16 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        byteData: 0d0000000001
+        byteData: 000d0000000001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f0000000f0000000f0000000f0000000f000000070000001100000017000000010000001400000012000000100000000f00000001000000
+        paramDataType: 1100000011000000010000000f0000000f0000000f0000000f0000000f0000000f000000070000001100000017000000010000001400000012000000100000000f00000001000000
         paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
         - fromValue
         - toValue
         - floatVariable
@@ -1251,15 +1268,15 @@ MonoBehaviour:
         - layer
         - normalizedTime
         - everyFrame
-        paramDataPos: 000000000100000002000000030000000400000005000000000000000000000000000000040000000000000000000000000000000600000005000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000001000000
+        paramDataPos: 000000000100000000000000000000000100000002000000030000000400000005000000010000000200000000000000050000000000000000000000000000000600000006000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000000000000040000000000000000000000010000000000000000000000000000000000000001000000
     - name: "\u555F\u52D5\u593E\u982D\u52D5\u4F5C"
       description: '#Inside_1'
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 958.28125
-        y: 761.2344
+        x: 1032.2891
+        y: 930.5
         width: 102
         height: 16
       isBreakpoint: 0
@@ -1356,7 +1373,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 734.3203
-        y: 1021.4922
+        y: 845.4922
         width: 107
         height: 16
       isBreakpoint: 0
@@ -1486,8 +1503,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 953.28125
-        y: 561.2344
+        x: 1032.2891
+        y: 587.5
         width: 100
         height: 48
       isBreakpoint: 0
@@ -1610,8 +1627,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 1090.2812
-        y: 578.2344
+        x: 1169.2891
+        y: 604.5
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1687,8 +1704,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 815.28125
-        y: 595.2344
+        x: 894.28906
+        y: 621.5
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1765,7 +1782,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 232.46094
-        y: 681.9844
+        y: 505.98438
         width: 109
         height: 64
       isBreakpoint: 0
@@ -1906,7 +1923,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 381.8125
-        y: 714.0703
+        y: 538.0703
         width: 119
         height: 32
       isBreakpoint: 0
@@ -1983,7 +2000,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 51.882812
-        y: 698.0703
+        y: 522.0703
         width: 120
         height: 32
       isBreakpoint: 0
@@ -2061,7 +2078,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 60.007812
-        y: 824.0703
+        y: 648.0703
         width: 116
         height: 16
       isBreakpoint: 0
@@ -2208,7 +2225,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 238.27344
-        y: 790.1094
+        y: 614.1094
         width: 100
         height: 48
       isBreakpoint: 0
@@ -2307,8 +2324,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 286
-        y: 259
+        x: 375
+        y: 114
         width: 100
         height: 32
       isBreakpoint: 0
@@ -2499,8 +2516,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 469.10156
-        y: 260.35156
+        x: 564.10156
+        y: 116.35156
         width: 102
         height: 32
       isBreakpoint: 0
@@ -2577,7 +2594,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 547
-        y: 882
+        y: 706
         width: 125
         height: 32
       isBreakpoint: 0
@@ -2725,7 +2742,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 380.10156
-        y: 960.21094
+        y: 784.21094
         width: 109
         height: 48
       isBreakpoint: 0
@@ -2821,7 +2838,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 554.10156
-        y: 790.21094
+        y: 614.21094
         width: 102
         height: 16
       isBreakpoint: 0
@@ -2918,7 +2935,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 556.10156
-        y: 976.21094
+        y: 800.21094
         width: 102
         height: 16
       isBreakpoint: 0
@@ -3015,7 +3032,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 382
-        y: 824
+        y: 648
         width: 109
         height: 48
       isBreakpoint: 0
@@ -3168,7 +3185,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 63
-        y: 787
+        y: 611
         width: 102
         height: 16
       isBreakpoint: 0
@@ -3264,8 +3281,8 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 954.5
-        y: 396.4297
+        x: 1041.5078
+        y: 361.6953
         width: 100
         height: 48
       isBreakpoint: 0
@@ -3356,21 +3373,29 @@ MonoBehaviour:
         paramDataPos: 000000000100000000000000010000000000000000000000
         paramByteDataSize: 000000000000000000000000000000000000000001000000
     - name: "\u5408\u6210G1\u5C08\u7528\u52D5\u756B"
-      description: "#\u53D6\u76EE\u524D\u6293\u53D6c \u6216 l\n#\u5408\u6210\"G1+\u6293\u53D6\u884C\u70BA\""
+      description: "#\u53D6\u76EE\u524D\u6293\u53D6c \u6216 l\n#\u5408\u6210\"G1+\u6293\u53D6\u884C\u70BA\"\n#\u6B63\u5728\u57F7\u884C\u4E0B\u4E00\u6B65?\n#\u82E5\u662F\u66AB\u7DE9\u5BEB\u5165\u52D5\u4F5C"
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 770.0078
-        y: 415.79688
+        x: 805.8672
+        y: 384.4297
         width: 138
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: N
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u5BEB\u5165\u52D5\u756B"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Y
+          isSystemEvent: 0
           isGlobal: 0
         toState: "\u81F3\u9810\u5099\u4F4D\u7F6E"
         linkStyle: 0
@@ -3380,13 +3405,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetStringRight
         - HutongGames.PlayMaker.Actions.BuildString
+        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 780107057370ae05
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 000101
+        actionStartIndex: 00000000040000000b000000
+        actionHashCodes: 780107057370ae05a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -3428,7 +3455,7 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/ArmAnimation
+          name: String/ArmAnimationTemp
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3452,19 +3479,27 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: Bool/SecondAnimation?
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 0000
+        stringParams:
+        - Y
+        - N
+        byteData: 000000
         arrayParamSizes: 02000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000001000000012000000010000000c000000120000001200000012000000110000001200000001000000
+        paramDataType: 120000001000000012000000010000000c00000012000000120000001200000011000000120000000100000011000000170000001700000001000000
         paramName:
         - stringVariable
         - charCount
@@ -3477,15 +3512,19 @@ MonoBehaviour:
         - addToEnd
         - storeResult
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000000000000020000000300000004000000000000000500000001000000
-        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000000000000000000001000000
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000000000002000000030000000400000000000000050000000100000001000000000000000100000002000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
     - name: "\u6AA2\u67E51"
       description: "#\u76EE\u6A19\u662FL??"
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 959.83594
-        y: 302.23438
+        x: 1041.8438
+        y: 272.5
         width: 100
         height: 48
       isBreakpoint: 0
@@ -3580,17 +3619,25 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 1130.8359
-        y: 314.23438
+        x: 1230.875
+        y: 319.53125
         width: 127
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: N
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u5BEB\u5165\u52D5\u756B"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Y
+          isSystemEvent: 0
           isGlobal: 0
         toState: "\u81F3\u9810\u5099\u4F4D\u7F6E"
         linkStyle: 0
@@ -3600,13 +3647,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetStringRight
         - HutongGames.PlayMaker.Actions.BuildString
+        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000004000000
-        actionHashCodes: 780107057370ae05
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 00000000040000000b000000
+        actionHashCodes: 780107057370ae05a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -3648,7 +3697,7 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/ArmAnimation
+          name: String/ArmAnimationTemp
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3672,19 +3721,27 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: Bool/SecondAnimation?
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 0000
+        stringParams:
+        - Y
+        - N
+        byteData: 000000
         arrayParamSizes: 02000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000001000000012000000010000000c000000120000001200000012000000110000001200000001000000
+        paramDataType: 120000001000000012000000010000000c00000012000000120000001200000011000000120000000100000011000000170000001700000001000000
         paramName:
         - stringVariable
         - charCount
@@ -3697,8 +3754,325 @@ MonoBehaviour:
         - addToEnd
         - storeResult
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000000000000020000000300000004000000000000000500000001000000
-        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000000000000000000001000000
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000000000002000000030000000400000000000000050000000100000001000000000000000100000002000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
+    - name: "\u57F7\u884C\u7B2C\u4E8C\u52D5\u4F5C"
+      description: "#\u7D00\u9304\u6B63\u5728\u57F7\u884C\u4E0B\u4E00\u6B65"
+      colorIndex: 2
+      position:
+        serializedVersion: 2
+        x: 1037.0078
+        y: 180.25
+        width: 125
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u6AA2\u67E51"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 27fbe103
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: Bool/SecondAnimation?
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 110000001100000001000000
+        paramName:
+        - boolVariable
+        - boolValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
+    - name: "\u6B63\u57F7\u884C\u7B2C\u4E8C\u52D5\u4F5C?"
+      description: "#\u7121\u5FC3\u7814\u78E8\u6A5F\u548C\u96F7\n\u5C04\u6AA2\u6E2C,\u56E0\u70BA\u6709\u5206\u958B\n\u7684\u6293\u653E\u52D5\u4F5C,\u70BA\u4E86\u89E3\n\u6C7A\u9810\u5099\u4F4D\u7F6E\u7684BUG\n\u5927\u8CBB\u5468\u7AE0\u5BEB\u4E86\u57F7\u884C\n\u7B2C\u4E8C\u68DF\u4F5C\u7684\u5224\u65B7..."
+      colorIndex: 5
+      position:
+        serializedVersion: 2
+        x: 1027.0078
+        y: 720.2656
+        width: 126
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Y
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u5BEB\u5165\u52D5\u756B2"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: N
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u63D2\u5165"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.BoolTest
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a4c8bf00
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: Bool/SecondAnimation?
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Y
+        - N
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 11000000170000001700000001000000
+        paramName:
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000
+        paramByteDataSize: 00000000000000000000000001000000
+    - name: "\u5BEB\u5165\u52D5\u756B"
+      description: 
+      colorIndex: 5
+      position:
+        serializedVersion: 2
+        x: 1035.4453
+        y: 453.6328
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u81F3\u9810\u5099\u4F4D\u7F6E"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetStringValue
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: c030f103
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: String/ArmAnimation
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: String/ArmAnimationTemp
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 120000001200000001000000
+        paramName:
+        - stringVariable
+        - stringValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
+    - name: "\u5BEB\u5165\u52D5\u756B2"
+      description: 
+      colorIndex: 5
+      position:
+        serializedVersion: 2
+        x: 1219.0312
+        y: 735.03125
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u63D2\u5165"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetStringValue
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: c030f103
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: String/ArmAnimation
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: String/ArmAnimationTemp
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 120000001200000001000000
+        paramName:
+        - stringVariable
+        - stringValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -3811,7 +4185,7 @@ MonoBehaviour:
         name: Inside_0
         isSystemEvent: 0
         isGlobal: 0
-      toState: "\u6AA2\u67E51"
+      toState: "\u57F7\u884C\u7B2C\u4E8C\u52D5\u4F5C"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -3830,8 +4204,26 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       intVariables: []
-      boolVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Bool/SecondAnimation?
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables:
+      - useVariable: 1
+        name: String/ArmAnimation
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: String/ArmAnimationTemp
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
       - useVariable: 1
         name: String/ArmLogicFsm
         tooltip: 
@@ -3870,12 +4262,6 @@ MonoBehaviour:
         value: 
       - useVariable: 1
         name: String/Traget/Org
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 
-      - useVariable: 1
-        name: String/ArmAnimation
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3966,7 +4352,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: "\u53BB\u6293ArmLogic\u7684Perstage\u8B8A\u6578\u4F86\u5224\u65B7\u662F\u5426\u5B8C\u6210\u79FB\u52D5"
     docUrl: 
     showStateLabel: 0
