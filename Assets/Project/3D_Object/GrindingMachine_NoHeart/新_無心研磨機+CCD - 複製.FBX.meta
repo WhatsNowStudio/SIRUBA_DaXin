@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0a7cf17f1774d054aa938e0279f10520
+guid: f91aa26aac8acc34d9b1263c0e6b4374
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -12,12 +12,6 @@ ModelImporter:
     100012: "\u7802\u8F2A_\u524D"
     100014: "\u7802\u8F2A_\u5F8C"
     100016: "\u7814\u78E8\u81C2"
-    100018: "\u5DE5\u4EF6"
-    100020: "\u7802\u8F2AR001"
-    100022: "\u7802\u8F2AR002"
-    100024: Object001
-    100026: "\u53F3\u5074\u56FA\u5B9A\u687F"
-    100028: "\u5DE6\u5074\u56FA\u5B9A\u687F"
     400000: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u4F38\u7E2E\u81C2_A"
     400002: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u4F38\u7E2E\u81C2_B"
     400004: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u58D3\u8F2A"
@@ -27,12 +21,6 @@ ModelImporter:
     400012: "\u7802\u8F2A_\u524D"
     400014: "\u7802\u8F2A_\u5F8C"
     400016: "\u7814\u78E8\u81C2"
-    400018: "\u5DE5\u4EF6"
-    400020: "\u7802\u8F2AR001"
-    400022: "\u7802\u8F2AR002"
-    400024: Object001
-    400026: "\u53F3\u5074\u56FA\u5B9A\u687F"
-    400028: "\u5DE6\u5074\u56FA\u5B9A\u687F"
     2100000: 02 - Default
     2100002: 06 - Default
     2100004: 08 - Default
@@ -42,20 +30,6 @@ ModelImporter:
     2100012: 09 - Default
     2100014: 01 - Default
     2100016: 05 - Default
-    2100018: whitecover
-    2100020: MetalGray
-    2100022: MetalBlack
-    2100024: PlasticBlack
-    2100026: PlasticRed
-    2100028: Iron
-    2100030: PlasticYellow
-    2100032: Orangecover
-    2100034: SilverGray
-    2100036: 19 - Default
-    2100038: MetalGold
-    2100040: No Name
-    2100042: Silver
-    2100044: Orange
     2300000: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u4F38\u7E2E\u81C2_A"
     2300002: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u4F38\u7E2E\u81C2_B"
     2300004: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u58D3\u8F2A"
@@ -64,12 +38,6 @@ ModelImporter:
     2300010: "\u7802\u8F2A_\u524D"
     2300012: "\u7802\u8F2A_\u5F8C"
     2300014: "\u7814\u78E8\u81C2"
-    2300016: "\u5DE5\u4EF6"
-    2300018: "\u7802\u8F2AR001"
-    2300020: "\u7802\u8F2AR002"
-    2300022: Object001
-    2300024: "\u53F3\u5074\u56FA\u5B9A\u687F"
-    2300026: "\u5DE6\u5074\u56FA\u5B9A\u687F"
     3300000: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u4F38\u7E2E\u81C2_A"
     3300002: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u4F38\u7E2E\u81C2_B"
     3300004: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u58D3\u8F2A"
@@ -78,12 +46,6 @@ ModelImporter:
     3300010: "\u7802\u8F2A_\u524D"
     3300012: "\u7802\u8F2A_\u5F8C"
     3300014: "\u7814\u78E8\u81C2"
-    3300016: "\u5DE5\u4EF6"
-    3300018: "\u7802\u8F2AR001"
-    3300020: "\u7802\u8F2AR002"
-    3300022: Object001
-    3300024: "\u53F3\u5074\u56FA\u5B9A\u687F"
-    3300026: "\u5DE6\u5074\u56FA\u5B9A\u687F"
     4300000: "\u7802\u8F2A_\u524D"
     4300002: "\u7802\u8F2A_\u5F8C"
     4300004: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u4F38\u7E2E\u81C2_B"
@@ -92,12 +54,6 @@ ModelImporter:
     4300010: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u4F38\u7E2E\u81C2_A"
     4300012: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u58D3\u8F2A"
     4300014: "\u5DE5\u4EF6\u6821\u6B63\u5E8A_\u6D3B\u585E"
-    4300016: "\u7802\u8F2AR001"
-    4300018: "\u5DE5\u4EF6"
-    4300020: "\u7802\u8F2AR002"
-    4300022: Object001
-    4300024: "\u53F3\u5074\u56FA\u5B9A\u687F"
-    4300026: "\u5DE6\u5074\u56FA\u5B9A\u687F"
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
