@@ -85,7 +85,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 254
         y: 119
-        width: 372
+        width: 363
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -1396,6 +1396,12 @@ MonoBehaviour:
     - name: Process
       isSystemEvent: 0
       isGlobal: 1
+    - name: Return_Close
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Return_Yes
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Y
       isSystemEvent: 0
       isGlobal: 0
@@ -1409,7 +1415,15 @@ MonoBehaviour:
       linkConstraint: 0
       colorIndex: 0
     - fsmEvent:
-        name: ErrorReturn_OK
+        name: Return_Yes
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u53D6\u5F97Json"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Return_Close
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u53D6\u5F97Json"
