@@ -880,7 +880,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: Float/AnimationPercentage/Stop
+          name: Float/AnimationPercentage/Stop_y
           tooltip: 
           showInInspector: 1
           networkSync: 0
@@ -1047,7 +1047,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: Float/AnimationPercentage/Stop
+          name: Float/AnimationPercentage/Stop_n
           tooltip: 
           showInInspector: 1
           networkSync: 0
@@ -1897,7 +1897,13 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: Float/AnimationPercentage/Stop
+        name: Float/AnimationPercentage/Stop_n
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Float/AnimationPercentage/Stop_y
         tooltip: 
         showInInspector: 1
         networkSync: 0
@@ -1966,7 +1972,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
