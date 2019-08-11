@@ -87,8 +87,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 206.76562
-        y: 276.10938
+        x: 55.148438
+        y: 318.2422
         width: 100
         height: 32
       isBreakpoint: 0
@@ -195,8 +195,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 367
-        y: 295
+        x: 215.38281
+        y: 337.1328
         width: 126
         height: 32
       isBreakpoint: 0
@@ -318,8 +318,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 757
-        y: 325
+        x: 422.5703
+        y: 257.7578
         width: 118.5
         height: 16
       isBreakpoint: 0
@@ -436,8 +436,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 562
-        y: 308
+        x: 410.3828
+        y: 350.1328
         width: 149
         height: 32
       isBreakpoint: 0
@@ -559,8 +559,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 215
-        y: 119
+        x: 63.382812
+        y: 161.13281
         width: 100
         height: 32
       isBreakpoint: 0
@@ -623,8 +623,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 207
-        y: 170
+        x: 55.382812
+        y: 212.13281
         width: 100
         height: 32
       isBreakpoint: 0
@@ -687,8 +687,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 205.5
-        y: 217.5
+        x: 53.882812
+        y: 259.6328
         width: 100
         height: 32
       isBreakpoint: 0

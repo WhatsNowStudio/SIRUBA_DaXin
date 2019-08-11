@@ -79,3 +79,4 @@ MonoBehaviour:
   - Reset
   - Return_Close
   - Return_Yes
+  - ForceYes
